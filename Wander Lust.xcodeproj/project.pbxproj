@@ -1,0 +1,644 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		71777DFC3839A64C5ACFA346 /* Pods_Wander_Lust.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9F67E7272D7B63A7E2BEFD1B /* Pods_Wander_Lust.framework */; };
+		AE030162209BDAFC00E0E38E /* MyProfileVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE030161209BDAFC00E0E38E /* MyProfileVC.swift */; };
+		AE0801B5209D1B7A006C1FBE /* EditProfileVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE0801B4209D1B7A006C1FBE /* EditProfileVC.swift */; };
+		AE0801B8209D1F4C006C1FBE /* LogoutVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE0801B7209D1F4C006C1FBE /* LogoutVC.swift */; };
+		AE5C20B92082946D0050A59B /* PlaceData.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE5C20B82082946D0050A59B /* PlaceData.swift */; };
+		AE5C20BD2082B9710050A59B /* PlacesCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE5C20BC2082B9710050A59B /* PlacesCell.swift */; };
+		AE5C20C02082BBBF0050A59B /* PlacesTableRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE5C20BF2082BBBF0050A59B /* PlacesTableRouter.swift */; };
+		AE5C20C32082BDCC0050A59B /* ReviewsTableVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE5C20C22082BDCC0050A59B /* ReviewsTableVC.swift */; };
+		AE5C20C92082BE140050A59B /* ReviewsTableInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE5C20C82082BE140050A59B /* ReviewsTableInteractor.swift */; };
+		AE5C20CB2082BE290050A59B /* ReviewsTablePresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE5C20CA2082BE290050A59B /* ReviewsTablePresenter.swift */; };
+		AE5C20CF2082EBF20050A59B /* ReviewDetailVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE5C20CE2082EBF20050A59B /* ReviewDetailVC.swift */; };
+		AE5F17BF2095444000F85662 /* WishListVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE5F17BE2095444000F85662 /* WishListVC.swift */; };
+		AE63F5C120806738009C2EEC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE63F5C020806738009C2EEC /* AppDelegate.swift */; };
+		AE63F5C320806738009C2EEC /* PlacesTableVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE63F5C220806738009C2EEC /* PlacesTableVC.swift */; };
+		AE63F5C820806738009C2EEC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AE63F5C720806738009C2EEC /* Assets.xcassets */; };
+		AE63F5CB20806738009C2EEC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AE63F5C920806738009C2EEC /* LaunchScreen.storyboard */; };
+		AE63F5D420806874009C2EEC /* ReviewData.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE63F5D320806874009C2EEC /* ReviewData.swift */; };
+		AE63F5D620806A58009C2EEC /* ReviewTableCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE63F5D520806A58009C2EEC /* ReviewTableCell.swift */; };
+		AE63F5D820806C97009C2EEC /* PlacesTableInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE63F5D720806C97009C2EEC /* PlacesTableInteractor.swift */; };
+		AE63F5DC20806FC7009C2EEC /* PlacesTablePresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE63F5DB20806FC7009C2EEC /* PlacesTablePresenter.swift */; };
+		AE7401532096981E00ED22D0 /* LoginVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE7401522096981E00ED22D0 /* LoginVC.swift */; };
+		AE7401552096982F00ED22D0 /* RegisterVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE7401542096982F00ED22D0 /* RegisterVC.swift */; };
+		AE74015920969C3300ED22D0 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = AE74015820969C3300ED22D0 /* GoogleService-Info.plist */; };
+		AE906209209A8ECF004F0144 /* MyWishListVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE906208209A8ECF004F0144 /* MyWishListVC.swift */; };
+		AE90620B209A91F1004F0144 /* MyWishListData.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE90620A209A91F1004F0144 /* MyWishListData.swift */; };
+		AE90620D209A947F004F0144 /* MyWishListCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE90620C209A947F004F0144 /* MyWishListCell.swift */; };
+		AECF425E2099680600166F68 /* HomeScreenVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = AECF425D2099680600166F68 /* HomeScreenVC.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		3DEA0FF55018C54554CBC52F /* Pods-Wander Lust.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Wander Lust.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Wander Lust/Pods-Wander Lust.debug.xcconfig"; sourceTree = "<group>"; };
+		3F6926127F5CB8F37CE6A23A /* Pods-Wander Lust.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Wander Lust.release.xcconfig"; path = "Pods/Target Support Files/Pods-Wander Lust/Pods-Wander Lust.release.xcconfig"; sourceTree = "<group>"; };
+		9F67E7272D7B63A7E2BEFD1B /* Pods_Wander_Lust.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Wander_Lust.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		AE030161209BDAFC00E0E38E /* MyProfileVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyProfileVC.swift; sourceTree = "<group>"; };
+		AE0801B4209D1B7A006C1FBE /* EditProfileVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditProfileVC.swift; sourceTree = "<group>"; };
+		AE0801B7209D1F4C006C1FBE /* LogoutVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LogoutVC.swift; sourceTree = "<group>"; };
+		AE5C20B82082946D0050A59B /* PlaceData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlaceData.swift; sourceTree = "<group>"; };
+		AE5C20BC2082B9710050A59B /* PlacesCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlacesCell.swift; sourceTree = "<group>"; };
+		AE5C20BF2082BBBF0050A59B /* PlacesTableRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlacesTableRouter.swift; sourceTree = "<group>"; };
+		AE5C20C22082BDCC0050A59B /* ReviewsTableVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReviewsTableVC.swift; sourceTree = "<group>"; };
+		AE5C20C82082BE140050A59B /* ReviewsTableInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReviewsTableInteractor.swift; sourceTree = "<group>"; };
+		AE5C20CA2082BE290050A59B /* ReviewsTablePresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReviewsTablePresenter.swift; sourceTree = "<group>"; };
+		AE5C20CE2082EBF20050A59B /* ReviewDetailVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReviewDetailVC.swift; sourceTree = "<group>"; };
+		AE5F17BE2095444000F85662 /* WishListVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WishListVC.swift; sourceTree = "<group>"; };
+		AE63F5BD20806738009C2EEC /* Wander Lust.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Wander Lust.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		AE63F5C020806738009C2EEC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		AE63F5C220806738009C2EEC /* PlacesTableVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlacesTableVC.swift; sourceTree = "<group>"; };
+		AE63F5C720806738009C2EEC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		AE63F5CA20806738009C2EEC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		AE63F5CC20806738009C2EEC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AE63F5D320806874009C2EEC /* ReviewData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReviewData.swift; sourceTree = "<group>"; };
+		AE63F5D520806A58009C2EEC /* ReviewTableCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReviewTableCell.swift; sourceTree = "<group>"; };
+		AE63F5D720806C97009C2EEC /* PlacesTableInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlacesTableInteractor.swift; sourceTree = "<group>"; };
+		AE63F5DB20806FC7009C2EEC /* PlacesTablePresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlacesTablePresenter.swift; sourceTree = "<group>"; };
+		AE7401522096981E00ED22D0 /* LoginVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginVC.swift; sourceTree = "<group>"; };
+		AE7401542096982F00ED22D0 /* RegisterVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterVC.swift; sourceTree = "<group>"; };
+		AE74015820969C3300ED22D0 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		AE906208209A8ECF004F0144 /* MyWishListVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyWishListVC.swift; sourceTree = "<group>"; };
+		AE90620A209A91F1004F0144 /* MyWishListData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyWishListData.swift; sourceTree = "<group>"; };
+		AE90620C209A947F004F0144 /* MyWishListCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyWishListCell.swift; sourceTree = "<group>"; };
+		AECF425D2099680600166F68 /* HomeScreenVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeScreenVC.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		AE63F5BA20806738009C2EEC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				71777DFC3839A64C5ACFA346 /* Pods_Wander_Lust.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		642C097E79BEE327B2E99498 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				3DEA0FF55018C54554CBC52F /* Pods-Wander Lust.debug.xcconfig */,
+				3F6926127F5CB8F37CE6A23A /* Pods-Wander Lust.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		AE030160209BDAE500E0E38E /* My Profile */ = {
+			isa = PBXGroup;
+			children = (
+				AE030161209BDAFC00E0E38E /* MyProfileVC.swift */,
+				AE0801B4209D1B7A006C1FBE /* EditProfileVC.swift */,
+			);
+			path = "My Profile";
+			sourceTree = "<group>";
+		};
+		AE0801B6209D1F3C006C1FBE /* Logout */ = {
+			isa = PBXGroup;
+			children = (
+				AE0801B7209D1F4C006C1FBE /* LogoutVC.swift */,
+			);
+			path = Logout;
+			sourceTree = "<group>";
+		};
+		AE5C20BE2082BB7A0050A59B /* ReviewsTable */ = {
+			isa = PBXGroup;
+			children = (
+				AE5C20C72082BDFF0050A59B /* Router */,
+				AE5C20C62082BDF90050A59B /* Entity */,
+				AE5C20C52082BDF20050A59B /* Presenter */,
+				AE5C20C42082BDE80050A59B /* Interactor */,
+				AE5C20C12082BDAD0050A59B /* View */,
+			);
+			path = ReviewsTable;
+			sourceTree = "<group>";
+		};
+		AE5C20C12082BDAD0050A59B /* View */ = {
+			isa = PBXGroup;
+			children = (
+				AE5C20C22082BDCC0050A59B /* ReviewsTableVC.swift */,
+				AE63F5D520806A58009C2EEC /* ReviewTableCell.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		AE5C20C42082BDE80050A59B /* Interactor */ = {
+			isa = PBXGroup;
+			children = (
+				AE5C20C82082BE140050A59B /* ReviewsTableInteractor.swift */,
+			);
+			path = Interactor;
+			sourceTree = "<group>";
+		};
+		AE5C20C52082BDF20050A59B /* Presenter */ = {
+			isa = PBXGroup;
+			children = (
+				AE5C20CA2082BE290050A59B /* ReviewsTablePresenter.swift */,
+			);
+			path = Presenter;
+			sourceTree = "<group>";
+		};
+		AE5C20C62082BDF90050A59B /* Entity */ = {
+			isa = PBXGroup;
+			children = (
+				AE63F5D320806874009C2EEC /* ReviewData.swift */,
+			);
+			path = Entity;
+			sourceTree = "<group>";
+		};
+		AE5C20C72082BDFF0050A59B /* Router */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Router;
+			sourceTree = "<group>";
+		};
+		AE5C20CC2082EBCC0050A59B /* ReviewDetails */ = {
+			isa = PBXGroup;
+			children = (
+				AE5C20CD2082EBDE0050A59B /* View */,
+			);
+			path = ReviewDetails;
+			sourceTree = "<group>";
+		};
+		AE5C20CD2082EBDE0050A59B /* View */ = {
+			isa = PBXGroup;
+			children = (
+				AE5C20CE2082EBF20050A59B /* ReviewDetailVC.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		AE5F17BD2095442700F85662 /* WishList */ = {
+			isa = PBXGroup;
+			children = (
+				AE5F17BE2095444000F85662 /* WishListVC.swift */,
+			);
+			path = WishList;
+			sourceTree = "<group>";
+		};
+		AE63F5B420806738009C2EEC = {
+			isa = PBXGroup;
+			children = (
+				AE63F5BF20806738009C2EEC /* Wander Lust */,
+				AE63F5BE20806738009C2EEC /* Products */,
+				642C097E79BEE327B2E99498 /* Pods */,
+				AE75EFCEBA7909A73898C76D /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		AE63F5BE20806738009C2EEC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				AE63F5BD20806738009C2EEC /* Wander Lust.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		AE63F5BF20806738009C2EEC /* Wander Lust */ = {
+			isa = PBXGroup;
+			children = (
+				AE0801B6209D1F3C006C1FBE /* Logout */,
+				AE030160209BDAE500E0E38E /* My Profile */,
+				AE906207209A8EBB004F0144 /* MyWishList */,
+				AECF425C209967F300166F68 /* Home Screen */,
+				AE7401512096980E00ED22D0 /* Register */,
+				AE7401502096980600ED22D0 /* Login */,
+				AE5F17BD2095442700F85662 /* WishList */,
+				AE5C20CC2082EBCC0050A59B /* ReviewDetails */,
+				AE5C20BE2082BB7A0050A59B /* ReviewsTable */,
+				AE63F5D220806814009C2EEC /* PlacesTable */,
+				AE63F5C020806738009C2EEC /* AppDelegate.swift */,
+				AE63F5C720806738009C2EEC /* Assets.xcassets */,
+				AE63F5C920806738009C2EEC /* LaunchScreen.storyboard */,
+				AE74015820969C3300ED22D0 /* GoogleService-Info.plist */,
+				AE63F5CC20806738009C2EEC /* Info.plist */,
+			);
+			path = "Wander Lust";
+			sourceTree = "<group>";
+		};
+		AE63F5D220806814009C2EEC /* PlacesTable */ = {
+			isa = PBXGroup;
+			children = (
+				AE63F5E320807034009C2EEC /* Router */,
+				AE63F5E220807029009C2EEC /* Entity */,
+				AE63F5E12080701F009C2EEC /* Presenter */,
+				AE63F5E020807016009C2EEC /* Interactor */,
+				AE63F5DF20807007009C2EEC /* View */,
+			);
+			path = PlacesTable;
+			sourceTree = "<group>";
+		};
+		AE63F5DF20807007009C2EEC /* View */ = {
+			isa = PBXGroup;
+			children = (
+				AE63F5C220806738009C2EEC /* PlacesTableVC.swift */,
+				AE5C20BC2082B9710050A59B /* PlacesCell.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		AE63F5E020807016009C2EEC /* Interactor */ = {
+			isa = PBXGroup;
+			children = (
+				AE63F5D720806C97009C2EEC /* PlacesTableInteractor.swift */,
+			);
+			path = Interactor;
+			sourceTree = "<group>";
+		};
+		AE63F5E12080701F009C2EEC /* Presenter */ = {
+			isa = PBXGroup;
+			children = (
+				AE63F5DB20806FC7009C2EEC /* PlacesTablePresenter.swift */,
+			);
+			path = Presenter;
+			sourceTree = "<group>";
+		};
+		AE63F5E220807029009C2EEC /* Entity */ = {
+			isa = PBXGroup;
+			children = (
+				AE5C20B82082946D0050A59B /* PlaceData.swift */,
+			);
+			path = Entity;
+			sourceTree = "<group>";
+		};
+		AE63F5E320807034009C2EEC /* Router */ = {
+			isa = PBXGroup;
+			children = (
+				AE5C20BF2082BBBF0050A59B /* PlacesTableRouter.swift */,
+			);
+			path = Router;
+			sourceTree = "<group>";
+		};
+		AE7401502096980600ED22D0 /* Login */ = {
+			isa = PBXGroup;
+			children = (
+				AE7401522096981E00ED22D0 /* LoginVC.swift */,
+			);
+			path = Login;
+			sourceTree = "<group>";
+		};
+		AE7401512096980E00ED22D0 /* Register */ = {
+			isa = PBXGroup;
+			children = (
+				AE7401542096982F00ED22D0 /* RegisterVC.swift */,
+			);
+			path = Register;
+			sourceTree = "<group>";
+		};
+		AE75EFCEBA7909A73898C76D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				9F67E7272D7B63A7E2BEFD1B /* Pods_Wander_Lust.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		AE906207209A8EBB004F0144 /* MyWishList */ = {
+			isa = PBXGroup;
+			children = (
+				AE906208209A8ECF004F0144 /* MyWishListVC.swift */,
+				AE90620A209A91F1004F0144 /* MyWishListData.swift */,
+				AE90620C209A947F004F0144 /* MyWishListCell.swift */,
+			);
+			path = MyWishList;
+			sourceTree = "<group>";
+		};
+		AECF425C209967F300166F68 /* Home Screen */ = {
+			isa = PBXGroup;
+			children = (
+				AECF425D2099680600166F68 /* HomeScreenVC.swift */,
+			);
+			path = "Home Screen";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		AE63F5BC20806738009C2EEC /* Wander Lust */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AE63F5CF20806738009C2EEC /* Build configuration list for PBXNativeTarget "Wander Lust" */;
+			buildPhases = (
+				893104D6E0C1DFC7CE988771 /* [CP] Check Pods Manifest.lock */,
+				AE63F5B920806738009C2EEC /* Sources */,
+				AE63F5BA20806738009C2EEC /* Frameworks */,
+				AE63F5BB20806738009C2EEC /* Resources */,
+				CBCBB381E33F45847E6DB992 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Wander Lust";
+			productName = "The SMBX Challenge";
+			productReference = AE63F5BD20806738009C2EEC /* Wander Lust.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		AE63F5B520806738009C2EEC /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0920;
+				LastUpgradeCheck = 0920;
+				ORGANIZATIONNAME = "Manoj Kulkarni";
+				TargetAttributes = {
+					AE63F5BC20806738009C2EEC = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = AE63F5B820806738009C2EEC /* Build configuration list for PBXProject "Wander Lust" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = AE63F5B420806738009C2EEC;
+			productRefGroup = AE63F5BE20806738009C2EEC /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				AE63F5BC20806738009C2EEC /* Wander Lust */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		AE63F5BB20806738009C2EEC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AE63F5CB20806738009C2EEC /* LaunchScreen.storyboard in Resources */,
+				AE63F5C820806738009C2EEC /* Assets.xcassets in Resources */,
+				AE74015920969C3300ED22D0 /* GoogleService-Info.plist in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		893104D6E0C1DFC7CE988771 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Wander Lust-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		CBCBB381E33F45847E6DB992 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-Wander Lust/Pods-Wander Lust-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/GTMSessionFetcher/GTMSessionFetcher.framework",
+				"${BUILT_PRODUCTS_DIR}/GoogleToolboxForMac/GoogleToolboxForMac.framework",
+				"${BUILT_PRODUCTS_DIR}/leveldb-library/leveldb.framework",
+				"${BUILT_PRODUCTS_DIR}/nanopb/nanopb.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GTMSessionFetcher.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GoogleToolboxForMac.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/leveldb.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/nanopb.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Wander Lust/Pods-Wander Lust-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		AE63F5B920806738009C2EEC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AE90620D209A947F004F0144 /* MyWishListCell.swift in Sources */,
+				AE63F5D820806C97009C2EEC /* PlacesTableInteractor.swift in Sources */,
+				AECF425E2099680600166F68 /* HomeScreenVC.swift in Sources */,
+				AE030162209BDAFC00E0E38E /* MyProfileVC.swift in Sources */,
+				AE0801B8209D1F4C006C1FBE /* LogoutVC.swift in Sources */,
+				AE5C20C02082BBBF0050A59B /* PlacesTableRouter.swift in Sources */,
+				AE906209209A8ECF004F0144 /* MyWishListVC.swift in Sources */,
+				AE5C20CF2082EBF20050A59B /* ReviewDetailVC.swift in Sources */,
+				AE63F5C320806738009C2EEC /* PlacesTableVC.swift in Sources */,
+				AE5C20CB2082BE290050A59B /* ReviewsTablePresenter.swift in Sources */,
+				AE5F17BF2095444000F85662 /* WishListVC.swift in Sources */,
+				AE0801B5209D1B7A006C1FBE /* EditProfileVC.swift in Sources */,
+				AE5C20C32082BDCC0050A59B /* ReviewsTableVC.swift in Sources */,
+				AE63F5D620806A58009C2EEC /* ReviewTableCell.swift in Sources */,
+				AE5C20BD2082B9710050A59B /* PlacesCell.swift in Sources */,
+				AE7401552096982F00ED22D0 /* RegisterVC.swift in Sources */,
+				AE5C20B92082946D0050A59B /* PlaceData.swift in Sources */,
+				AE63F5D420806874009C2EEC /* ReviewData.swift in Sources */,
+				AE63F5C120806738009C2EEC /* AppDelegate.swift in Sources */,
+				AE63F5DC20806FC7009C2EEC /* PlacesTablePresenter.swift in Sources */,
+				AE5C20C92082BE140050A59B /* ReviewsTableInteractor.swift in Sources */,
+				AE7401532096981E00ED22D0 /* LoginVC.swift in Sources */,
+				AE90620B209A91F1004F0144 /* MyWishListData.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		AE63F5C920806738009C2EEC /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AE63F5CA20806738009C2EEC /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		AE63F5CD20806738009C2EEC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		AE63F5CE20806738009C2EEC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		AE63F5D020806738009C2EEC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3DEA0FF55018C54554CBC52F /* Pods-Wander Lust.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = FZ5NFCMB53;
+				INFOPLIST_FILE = "Wander Lust/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.mnjpk.Wander-Lust";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		AE63F5D120806738009C2EEC /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3F6926127F5CB8F37CE6A23A /* Pods-Wander Lust.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = FZ5NFCMB53;
+				INFOPLIST_FILE = "Wander Lust/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.mnjpk.Wander-Lust";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		AE63F5B820806738009C2EEC /* Build configuration list for PBXProject "Wander Lust" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AE63F5CD20806738009C2EEC /* Debug */,
+				AE63F5CE20806738009C2EEC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AE63F5CF20806738009C2EEC /* Build configuration list for PBXNativeTarget "Wander Lust" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AE63F5D020806738009C2EEC /* Debug */,
+				AE63F5D120806738009C2EEC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = AE63F5B520806738009C2EEC /* Project object */;
+}
